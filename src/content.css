@@ -1,0 +1,6 @@
+/* Visual feedback for the figure currently being recolored. */
+.cbfh-active-outline {
+  outline: 3px solid #0072b2 !important; /* colorblind-safe blue */
+  outline-offset: 2px !important;
+  cursor: zoom-in !important;
+}

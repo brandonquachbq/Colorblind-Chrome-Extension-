@@ -39,14 +39,6 @@ command). If another app or extension has claimed it, set your own at
 `chrome://extensions/shortcuts` — there's a link in the popup. The toolbar
 popup toggle always works regardless of the shortcut.
 
-## Verify
-
-Open `test/red-green-figure.html` in Chrome with the extension enabled, then
-hover the figure. The red and green clusters should separate visually and a blue
-outline should appear; the tiny icon above it should be ignored. Compare with a
-colorblindness simulator to fine-tune the matrices in
-[`src/filters.js`](src/filters.js) if needed.
-
 ## Files
 
 | File | Purpose |
